@@ -8,6 +8,13 @@ public class Player {
     String name;
     String opponent_name;
 
+    /**
+     * コンストラクタ
+     * @param color
+     * @param opponent
+     * @param name
+     * @param opponent_name
+     */
     Player(String color, String opponent, String name, String opponent_name){
         this.color = color;
         this.opponent_color = opponent;

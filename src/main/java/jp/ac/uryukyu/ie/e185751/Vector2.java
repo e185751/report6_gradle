@@ -14,6 +14,7 @@ public class Vector2 {
         return result;
     }
 
+
     public boolean equals(Vector2 vec){
         if (this.x == vec.x && this.y == vec.y){
             return true;

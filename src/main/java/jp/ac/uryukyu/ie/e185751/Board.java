@@ -14,6 +14,7 @@ public class Board {
         makeEmptyPoints();
     }
 
+
     public void makeBoardData(){
         for (int i = 0; i < boardLength; i++){
             for (int k = 0; k < boardLength; k++){
